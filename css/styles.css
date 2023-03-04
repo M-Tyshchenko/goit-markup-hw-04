@@ -377,8 +377,8 @@ address {
 }
 
 .customer-link:is(:hover, :focus) {
-  border: 1px solid var(--primary-brand);
-  color: var(--primary-brand);
+  border: 1px solid var(--pressed-state);
+  color: var(--pressed-state);
 }
 
 .customer-icon {
@@ -448,7 +448,7 @@ footer {
 }
 
 .footer-social-link:is(:hover, :focus) {
-  background-color: var(--pressed-state);
+  background-color: var(--success);
 }
 
 /*-------------------------- Portfolio page --------------------------*/
@@ -508,6 +508,10 @@ footer {
 
 .project .link {
   width: calc((100%-48px) / 3);
+}
+
+.project img:hover,
+.project img:focus {
 }
 
 .project-content {
